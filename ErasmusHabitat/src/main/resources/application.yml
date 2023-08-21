@@ -1,0 +1,11 @@
+spring:
+  #Definicion de la fuente de los datos
+ datasource:
+  url: jdbc:mysql://localhost:3306/db_erasmus
+  username: root
+  password: Mabel123
+  
+  
+ jpa:
+  hibernate:
+    ddl-auto: create
